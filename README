@@ -1,0 +1,10 @@
+This is my 4h verrsion of this technical assignment. Due to some personal circumstances I had to split this time throughout the day, but I can assure you, that no more than 4 hours were spent on this assignment.
+
+As to additional features I would have added:
+
+1) Validation for all inputs
+2) Database integrity checks, i.e. if the author already exists in the database then find and add the author to the new book object.
+3) Full CRUD support, the methods are already created in DbService.cs but not used, though - functional
+4) Not a feature, but more interface/service/method/model segregation is possible
+
+Finally, I decided to create the tables in such a way that the book object contains the Author object as well, but in form of an "AuthorId". An author table exists seperately and it is possible to join them via AuthorId.
